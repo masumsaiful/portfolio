@@ -28,18 +28,36 @@ body
     text-transform: uppercase;
     text-decoration: none;
 }
-.menu ul li a:hover{
-    color: #6927ff;
-    
+.menu ul li a:hover {
+    color: #ffa45c;
 }
 section#hero {
     padding-top: 130px;
     padding-bottom: 160px;
 }
+.prof img.rounded-circle {
+    border: 20px solid #86c3ff2b;
+    padding: 0;
+}
+.taxa .h2, h2 {
+    font-size: 2rem;
+    font-size: 41px;
+}
+
 .prof .texa {
     padding-top: 20px;
 }
-
+.btn-primary {
+    color: #fff;
+    background-color: #f77754;
+     border-color: #f77754;
+    border-radius: 0;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #de5732;
+    border-color: #de5732;
+}
 
 
 .social {
@@ -77,6 +95,41 @@ section.skills.text-center {
     padding-top: 100px;
     padding-bottom: 100px;
 }
+.col-sm-3.firsta {
+    position: relative;
+}
+.firsta .port-overlay {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    height: 100%;
+    width: 90%;
+    background: #021d3aa6;
+    opacity: 0;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    text-align: center;
+    display: block;
+}
+.firsta:hover .port-overlay{
+    opacity: 1;
+}
+.firsta a.btn.btn-primary {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition:all 0.4s ease;
+    -webkit-transition:all 0.4s ease;
+    -moz-transition:all 0.4s ease;
+    
+}
+.firsta:hover a.btn.btn-primary {
+    opacity: 1;
+}
+
 
 
 /***skills**/
